@@ -140,9 +140,9 @@ def rank_topics(title, abstract, coverage=COVERAGE):
 
 
 st.markdown('<div class="app-header">', unsafe_allow_html=True)
-st.markdown('<div class="app-title">Классификатор тематик arXiv</div>', unsafe_allow_html=True)
+st.markdown('<div class="app-title">Классификатор тем статей</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="app-sub">Введите название статьи и, при желании, аннотацию. Модель определит наиболее вероятные рубрики arXiv.</div>',
+    '<div class="app-sub">Введите название статьи и, при желании, аннотацию. Модель определит наиболее вероятные рубрики.</div>',
     unsafe_allow_html=True,
 )
 st.markdown("</div>", unsafe_allow_html=True)
